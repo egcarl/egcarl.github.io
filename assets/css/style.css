@@ -1,0 +1,156 @@
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 1.5em;
+    border-bottom: #777 solid .05em;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-size: 1.25em;
+    border-bottom: #777 solid .05em;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #777;
+}
+
+a:hover {
+    font-weight: bold;
+}
+img {
+    display: inline;
+}
+
+/* html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+} */
+
+
+header {
+    background-color: #fff;
+    /* width: 100%; */
+    border-bottom: #777 thin;
+    border-style: solid;
+    top: 0%;
+    overflow: auto;
+}
+
+body {background-image: url(../images/background.png)
+}
+
+
+
+/* li {
+    float: left;
+    padding: .25em;
+} */
+
+aside {
+    /* width: 270px; */
+    background-color: #fff;
+    /* float: right; */
+    height: fit-content;
+}
+
+.section {
+    /* width: 650px; */
+    background-color: #fff;
+    /* float: left; */
+    height: fit-content;
+    padding: 1.25em;
+    margin-left: 1em;
+}
+
+footer {
+    width: 100%;
+    background-color: #666666;
+    color: #fff;
+    /* clear: both; */
+    font-size: 0.6em;
+    /* height: 3em; */
+    text-align: center;
+    border-top: #4aaaa5 solid 2px;
+    /* padding-top: 1%; */
+    /* margin-top: 1em; */
+}
+
+input {
+    width:90%;
+    margin-bottom: 2em;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contenttitle {
+    border-bottom: grey solid 1px;
+    margin-bottom: .25em;
+}
+
+.aside {
+    background-color: #fff
+}
+
+.comments {
+    height: 15em;
+}
+
+.padding {
+    margin: 10px;
+    padding: 10px;
+}
+
+.main_section {
+    background-color: #fff;
+}
+
+#sidebar {
+    text-align: center;
+    margin: 1em;
+}
+
+#YourName {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 2em;
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 169px;
+    float: left;
+    margin-left: 1em;
+    text-align: center;
+    height: 2em;
+    padding: .5em;
+}
+
+#headerlist {
+    color: #777;
+    float: right;
+    padding: 1em;
+    /* padding-left: 51%; */
+    /* text-align: right; */
+    /* display: inline; */
+}
+
+#copyright {
+    color: #fff;
+}
+.social_media {
+    text-align: center;
+}
